@@ -1,12 +1,12 @@
 Summary:	DirectFB example programs (demos)
 Summary(pl):	Programy przyk³adowe (demonstracyjne) do DirectFB
 Name:		DirectFB-examples
-Version:	0.9.21
+Version:	0.9.22
 Release:	1
 License:	MIT
 Group:		Applications/Graphics
 Source0:	http://www.directfb.org/download/DirectFB-extra/%{name}-%{version}.tar.gz
-# Source0-md5:	3a9775b01e26eaf826a83245624377eb
+# Source0-md5:	298f5503985a8c12403b8d9e058406f4
 URL:		http://www.directfb.org/
 BuildRequires:	DirectFB-devel >= 1:%{version}
 BuildRequires:	automake
