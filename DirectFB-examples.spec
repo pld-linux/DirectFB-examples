@@ -9,6 +9,7 @@ Source0:	http://www.directfb.org/download/DirectFB-extra/%{name}-%{version}.tar.
 # Source0-md5:	3a9775b01e26eaf826a83245624377eb
 URL:		http://www.directfb.org/
 BuildRequires:	DirectFB-devel >= 1:%{version}
+BuildRequires:	automake
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
