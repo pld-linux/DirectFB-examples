@@ -6,6 +6,7 @@ Release:	1
 License:	MIT
 Group:		Applications/Graphics
 Source0:	http://www.directfb.org/download/DirectFB/%{name}-%{version}.tar.gz
+# Source0-md5:	f6b96311ee882a4ebd7c0cf10d373709
 URL:		http://www.directfb.org/
 BuildRequires:	DirectFB-devel >= %{version}
 BuildRequires:	autoconf
