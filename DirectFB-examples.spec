@@ -1,5 +1,5 @@
 Summary:	DirectFB example programs (demos)
-Summary(pl):	Programy przyk³adowe (demonstracyjne) do DirectFB
+Summary(pl.UTF-8):   Programy przykÅ‚adowe (demonstracyjne) do DirectFB
 Name:		DirectFB-examples
 Version:	0.9.25
 Release:	1
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 DirectFB example programs (demos). See README for description of
 each program.
 
-%description -l pl
-Programy przyk³adowe (demonstracyjne) do DirectFB. Opis poszczególnych
-programów znajduje siê w pliku README.
+%description -l pl.UTF-8
+Programy przykÅ‚adowe (demonstracyjne) do DirectFB. Opis poszczegÃ³lnych
+programÃ³w znajduje siÄ™ w pliku README.
 
 %prep
 %setup -q
