@@ -1,5 +1,5 @@
 Summary:	DirectFB example programs (demos)
-Summary(pl.UTF-8):   Programy przykładowe (demonstracyjne) do DirectFB
+Summary(pl.UTF-8):	Programy przykładowe (demonstracyjne) do DirectFB
 Name:		DirectFB-examples
 Version:	0.9.25
 Release:	1
