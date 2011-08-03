@@ -1,16 +1,17 @@
 Summary:	DirectFB example programs (demos)
 Summary(pl.UTF-8):	Programy przykładowe (demonstracyjne) do DirectFB
 Name:		DirectFB-examples
-Version:	1.2.0
-Release:	3
+Version:	1.5.2
+Release:	1
 License:	MIT
 Group:		Applications/Graphics
 Source0:	http://www.directfb.org/downloads/Extras/%{name}-%{version}.tar.gz
-# Source0-md5:	ce018f681b469a1d72ffc32650304b98
+# Source0-md5:	e1c7babb9bb02f9aff8c45f07968458c
 URL:		http://www.directfb.org/
-BuildRequires:	DirectFB-devel >= 1:%{version}
+BuildRequires:	DirectFB-devel >= 1:1.4.14
 BuildRequires:	automake
 BuildRequires:	pkgconfig
+Requires:	DirectFB >= 1:1.4.14
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -41,5 +42,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README
-%attr(755,root,root) %{_bindir}/*
+%attr(755,root,root) %{_bindir}/df_*
+%attr(755,root,root) %{_bindir}/pss
+%attr(755,root,root) %{_bindir}/spacedream
 %{_datadir}/directfb-examples
