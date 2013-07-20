@@ -11,6 +11,7 @@ URL:		http://www.directfb.org/
 BuildRequires:	DirectFB-devel >= 1:1.6.0
 BuildRequires:	automake
 BuildRequires:	pkgconfig
+BuildRequires:	zlib-devel
 Requires:	DirectFB >= 1:1.6.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -27,7 +28,8 @@ programów znajduje się w pliku README.
 
 %build
 cp -f /usr/share/automake/config.sub .
-%configure
+%configure \
+	--disable-silent-rules
 %{__make}
 
 %install
